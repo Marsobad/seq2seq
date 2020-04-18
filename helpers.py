@@ -1,3 +1,6 @@
+import unicodedata
+import re
+
 SOS_token = 0
 EOS_token = 1
 
@@ -10,7 +13,7 @@ class Lang:
         self.word2index = {}
         self.word2count = {}
         self.index2word = {0: "SOS", 1: "EOS"}
-        self.n_words = 2  # Count SOS and EOS
+        self.n_words = 2
 
     def addSentence(self, sentence):
         for word in sentence.split(' '):
@@ -25,3 +28,17 @@ class Lang:
         else:
             self.word2count[word] += 1
 
+
+def unicodeToAscii(s):
+    return ''.join(
+        c for c in unicodedata.normalize('NFD', s)
+        if unicodedata.category(c) != 'Mn'
+    )
+
+
+
+def normalizeString(s):
+    s = unicodeToAscii(s.lower().strip())
+    s = re.sub(r"([.!?])", r" \1", s)
+    s = re.sub(r"[^a-zA-Z.!?]+", r" ", s)
+    return s
