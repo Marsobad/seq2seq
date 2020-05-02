@@ -3,8 +3,7 @@
 Welcome to our Seq2seq repository! 
 The goal of the project is to implement a NMT model to perform translation from French to English. To do so, we relied on a PyTorch tutorial written by Sean Robertson : [NLP From Scratch: Translation with a Sequence to Sequence Network and Attention](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html).  
 
-The project is an academic project from [CentraleSupélec](https://www.centralesupelec.fr/) 
-during the NLP course.  
+The project is an academic project from [CentraleSupélec](https://www.centralesupelec.fr/) realized as part of the NLP class. 
 
 ## Getting started
 
