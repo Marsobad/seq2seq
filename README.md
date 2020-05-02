@@ -13,7 +13,7 @@ pip install -r requirement.txt
 jupyter notebook seq2seq_notebook.ipynb 
 ```
 
-We relied on the model provided in the PyTorch tutorial. We trained it on [datasets](https://wit3.fbk.eu/mt.php?release=2014-01) recording Ted talks and their translations. We implemented beam search with length penalty used for inference time in a script called `beam_search.py`. 
+We relied on the model provided in the PyTorch tutorial. We trained it on [datasets](https://wit3.fbk.eu/mt.php?release=2014-01) recording Ted talks and their translations. In addition to this, we implemented beam search with length penalty. Used at inference time, it is coded in a script called `beam_search.py`. 
 
 ## Project structure
 The structure of our project is as follow : 
