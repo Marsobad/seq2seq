@@ -8,7 +8,7 @@ The project is an academic project from [CentraleSupélec](https://www.centrales
 ## Getting started
 
 ```
-pip install -r requirement.txt 
+pip install -r requirements.txt 
 jupyter notebook seq2seq_notebook.ipynb 
 ```
 
