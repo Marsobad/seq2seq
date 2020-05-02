@@ -32,5 +32,5 @@ The structure of our project is as follow :
     • IWSLT14.TED.tst2012.en-fr.fr.xml
 ```
 
-## Results using Bleu 
+## Results
 Mettre un petit tableau
