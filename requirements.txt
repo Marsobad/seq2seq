@@ -1,0 +1,15 @@
+ipykernel
+ipython
+ipython-genutils
+ipywidgets
+jupyter
+jupyter-client
+jupyter-console
+jupyter-core
+Markdown
+matplotlib
+nltk
+notebook
+numpy
+pandas
+torch
