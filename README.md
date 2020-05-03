@@ -9,6 +9,7 @@ The project is an academic project from [CentraleSupélec](https://www.centrales
 
 ```
 pip install -r requirements.txt 
+nltk.download('punkt')
 jupyter notebook seq2seq_notebook.ipynb 
 ```
 
