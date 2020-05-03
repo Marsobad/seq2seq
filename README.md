@@ -34,4 +34,18 @@ The structure of our project is as follow :
 ```
 
 ## Results
-Mettre un petit tableau
+|           | BLEU scores experiment 1 |          |
+|-----------|--------------------------|----------|
+| Beam size | Training set             | Test set |
+| 1         | 7,28                     | 0,30     |
+| 2         | 8,36                     | 0,37     |
+| 5         | 9,36                     | 0,31     |
+| 10        | 9,35                     | 0,37     |
+| 50        | 9,37                     | 0,36     |
+
+|           | BLEU scores, experiment 2 |          |
+|-----------|---------------------------|----------|
+| Beam size | Training set              | Test set |
+| 1         | 7,15                      | 0,29     |
+| 2         | 8,09                      | 0,30     |
+| 5         | 8,18                      | 0,40     |
