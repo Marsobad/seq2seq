@@ -13,3 +13,5 @@ notebook
 numpy
 pandas
 torch
+sacrebleu
+tqdm
